@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obra House R|J</title>
+<meta name="description" content="Acompanhamento da reforma da House R|J, cômodo a cômodo.">
+<meta name="theme-color" content="#2B2E33">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topo">
+  <div class="topo-in">
+    <div class="marca">
+      <h1>House R|J</h1>
+      <p>Reforma, cômodo a cômodo</p>
+    </div>
+    <p class="endereco">Rua Coronel Conrado Niemeyer, 20, Petrópolis</p>
+  </div>
+  <nav class="abas" aria-label="Seções">
+    <a href="#painel" id="aba-painel" aria-current="page">Painel</a>
+    <a href="#atualizar" id="aba-atualizar">Atualizar andamento</a>
+  </nav>
+</header>
+
+<main id="v-painel">
+  <section class="carimbo" aria-label="Resumo da obra">
+    <div class="cel cel-grande">
+      <span class="rot">Progresso geral</span>
+      <span class="val-xl" id="r-prog">–</span>
+      <div class="trilho"><span id="r-barra"></span></div>
+    </div>
+    <div class="cel"><span class="rot">Status da obra</span><span class="val" id="r-status">–</span></div>
+    <div class="cel"><span class="rot">Cômodos concluídos</span><span class="val" id="r-comodos">–</span></div>
+    <div class="cel"><span class="rot">Etapas concluídas</span><span class="val" id="r-etapas">–</span></div>
+    <div class="cel cel-andares" id="r-andares"></div>
+    <div class="cel cel-proj">
+      <span class="rot">Projeto</span>
+      <span class="peq">Karina Silva Arquitetura, projeto executivo de 16 out 2026</span>
+    </div>
+  </section>
+
+  <section class="prancha" aria-labelledby="t-planta">
+    <div class="prancha-planta">
+      <div class="prancha-bar">
+        <h2 id="t-planta">Planta</h2>
+        <div class="seg" role="tablist" aria-label="Andar">
+          <button role="tab" data-andar="Térreo" aria-selected="true">Térreo</button>
+          <button role="tab" data-andar="Superior" aria-selected="false">Superior</button>
+        </div>
+      </div>
+      <div class="planta" id="planta">
+        <div class="planta-in" id="planta-in">
+          <svg id="planta-svg" role="img" aria-label="Planta com o andamento de cada cômodo"></svg>
+          <div class="balao" id="balao" hidden></div>
+        </div>
+      </div>
+      <p class="arraste">Arraste para os lados para ver a planta inteira</p>
+      <div class="legenda">
+        <span><i class="sw sw-0"></i>Não iniciado</span>
+        <span><i class="sw sw-a"></i>Em andamento</span>
+        <span><i class="sw sw-c"></i>Concluído</span>
+        <span class="dica">Toque num cômodo para ver as etapas</span>
+      </div>
+    </div>
+
+    <aside class="detalhe" id="detalhe" aria-live="polite">
+      <p class="vazio">Escolha um cômodo na planta ou no quadro abaixo.</p>
+    </aside>
+  </section>
+
+
+  <section class="quadro" aria-labelledby="t-quadro">
+    <div class="quadro-bar">
+      <h2 id="t-quadro">Quadro de ambientes</h2>
+      <div class="seg" id="filtro" aria-label="Filtrar">
+        <button data-f="Todos" aria-pressed="true">Todos</button>
+        <button data-f="Térreo" aria-pressed="false">Térreo</button>
+        <button data-f="Superior" aria-pressed="false">Superior</button>
+      </div>
+    </div>
+    <div class="tabela-wrap">
+      <table class="tabela">
+        <thead>
+          <tr><th>Ambiente</th><th class="o-sm">Andar</th><th class="num o-sm">Área</th><th>Andamento</th><th class="num">%</th></tr>
+        </thead>
+        <tbody id="quadro"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="erro" id="erro" hidden></p>
+</main>
+
+<main id="v-atualizar" hidden>
+  <section class="cartao conexao" id="conexao" aria-labelledby="t-conexao">
+    <div class="conexao-linha">
+      <div>
+        <h2 id="t-conexao">Salvar no GitHub</h2>
+        <p class="nota" id="con-status">Verificando…</p>
+      </div>
+      <button type="button" class="btn-sec" id="con-abrir" aria-expanded="false" aria-controls="con-form">Configurar</button>
+    </div>
+    <form id="con-form" class="con-form" hidden>
+      <p class="nota">Cole um token do GitHub com permissão de escrita só neste repositório. Ele fica guardado apenas neste aparelho e nunca vai para o site.</p>
+      <details class="como">
+        <summary>Como criar o token</summary>
+        <ol>
+          <li>No GitHub, abra Settings, depois Developer settings, depois Personal access tokens, depois Fine-grained tokens.</li>
+          <li>Toque em Generate new token e dê um nome, por exemplo "Painel da obra".</li>
+          <li>Em Repository access, escolha Only select repositories e marque este repositório.</li>
+          <li>Em Permissions, abra Repository permissions e deixe Contents como Read and write.</li>
+          <li>Gere o token, copie e cole aqui.</li>
+        </ol>
+      </details>
+      <label>Token<input type="password" id="con-token" autocomplete="off" spellcheck="false" placeholder="github_pat_…"></label>
+      <div class="con-grade">
+        <label>Usuário<input id="con-owner" autocomplete="off" spellcheck="false"></label>
+        <label>Repositório<input id="con-repo" autocomplete="off" spellcheck="false"></label>
+        <label>Branch<input id="con-branch" autocomplete="off" spellcheck="false"></label>
+      </div>
+      <div class="con-acoes">
+        <button type="submit" class="btn">Conectar</button>
+        <button type="button" class="btn-sec" id="con-esquecer">Esquecer token</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="cartao editor" aria-labelledby="t-editor">
+    <div class="editor-topo">
+      <h2 id="t-editor">Cômodo</h2>
+      <div class="sel-comodo">
+        <button type="button" class="nav-c" id="c-ant" aria-label="Cômodo anterior">‹</button>
+        <select id="c-sel" aria-labelledby="t-editor"></select>
+        <button type="button" class="nav-c" id="c-prox" aria-label="Próximo cômodo">›</button>
+      </div>
+    </div>
+    <div class="editor-res" id="c-res"></div>
+    <ul class="ed-lista" id="ed-lista"></ul>
+  </section>
+
+</main>
+
+  <div class="barra-salvar" id="barra-salvar" hidden>
+    <p class="aviso" id="aviso" role="status" hidden></p>
+    <span id="bs-texto"></span>
+    <div class="bs-acoes">
+      <button type="button" class="btn-sec" id="bs-desfazer">Desfazer</button>
+      <button type="button" class="btn-sec" id="bs-baixar">Baixar CSV</button>
+      <button type="button" class="btn" id="bs-salvar">Salvar</button>
+    </div>
+  </div>
+
+<footer class="rodape">
+  <p>Os dados ficam em <code>etapas.csv</code>, no repositório do site.</p>
+</footer>
+
+<script src="app.js"></script>
+<script src="atualizar.js"></script>
+</body>
+</html>
