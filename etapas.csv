@@ -1,0 +1,142 @@
+id,andar,comodo,etapa,detalhe,progresso
+PIS-01,Térreo,Piscina,Demolição,Demolir piscina antiga,0
+PIS-02,Térreo,Piscina,Construção,Nova piscina e casa de máquinas,0
+PIS-03,Térreo,Piscina,Revestimento,Destaque terrazzo beige 45x90 (Biancogres),0
+PIS-04,Térreo,Piscina,Iluminação,Pontos de espera de LED,0
+GOU-01,Térreo,Gourmet,Demolição,Paredes e piso marcados em vermelho,0
+GOU-02,Térreo,Gourmet,Alvenaria,Paredes novas (amarelo na planta),0
+GOU-03,Térreo,Gourmet,Hidráulica,"Pia, gás, ralos lineares e ponto de torneira",0
+GOU-04,Térreo,Gourmet,Elétrica,Tomadas e interruptores,0
+GOU-05,Térreo,Gourmet,Forro,PVC nogueira (lado da cozinha gourmet),0
+GOU-06,Térreo,Gourmet,Piso,Terrazzo grigio ext 90x90,0
+GOU-07,Térreo,Gourmet,Pintura,Toque de seda areia / grafiato areia,0
+GOU-08,Térreo,Gourmet,Iluminação,"Pendente jabuticaba, painéis 20x20 e arandelas fit",0
+GAR-01,Térreo,Garagem,Portão,Portão duplo de correr marrom (P7),0
+GAR-02,Térreo,Garagem,Elétrica,"Ponto do motor do portão h=2,50m",0
+GAR-03,Térreo,Garagem,Forro,PVC junta seca amadeirado,0
+GAR-04,Térreo,Garagem,Piso,Terrazzo grigio ext 90x90,0
+GAR-05,Térreo,Garagem,Pintura,Toque de seda areia,0
+GAR-06,Térreo,Garagem,Iluminação,Painéis de sobrepor 20x20,0
+LAV-01,Térreo,Lavanderia,Alvenaria,Paredes novas,0
+LAV-02,Térreo,Lavanderia,Hidráulica,"Tanque, máquina e torneira h=1,20m",0
+LAV-03,Térreo,Lavanderia,Elétrica,Tomadas e interruptor,0
+LAV-04,Térreo,Lavanderia,Forro,PVC nogueira,0
+LAV-05,Térreo,Lavanderia,Piso,Terrazzo grigio ace 90x90,0
+LAV-06,Térreo,Lavanderia,Revestimento,Parede Raggi Oro 60x120 (Delta),0
+LAV-07,Térreo,Lavanderia,Iluminação,Painel 20x20,0
+LBT-01,Térreo,Lavabo térreo,Alvenaria,Paredes novas,0
+LBT-02,Térreo,Lavabo térreo,Hidráulica,"Vaso, lavatório e registro",0
+LBT-03,Térreo,Lavabo térreo,Elétrica,Interruptor e tomada,0
+LBT-04,Térreo,Lavabo térreo,Forro,PVC nogueira,0
+LBT-05,Térreo,Lavabo térreo,Piso,Terrazzo grigio ace 90x90,0
+LBT-06,Térreo,Lavabo térreo,Revestimento,Terrazzo beige 45x90 + pintura mantra,0
+LBT-07,Térreo,Lavabo térreo,Louças e metais,"Vaso, cuba e torneira",0
+LBT-08,Térreo,Lavabo térreo,Iluminação,Painel 20x20,0
+HOS-01,Térreo,Hóspedes,Esquadrias,"Janela de correr J3 (1,40x1,30)",0
+HOS-02,Térreo,Hóspedes,Elétrica,Tomadas e interruptor,0
+HOS-03,Térreo,Hóspedes,Teto,Laje existente regularizada,0
+HOS-04,Térreo,Hóspedes,Piso,Terrazzo grigio ace 90x90,0
+HOS-05,Térreo,Hóspedes,Pintura,Toque de seda areia,0
+HOS-06,Térreo,Hóspedes,Iluminação,2 painéis 20x20,0
+JG1-01,Térreo,Jogos 1,Esquadrias,Porta de correr 4 folhas vidro (P6) e janela J4,0
+JG1-02,Térreo,Jogos 1,Elétrica,Tomadas e interruptor,0
+JG1-03,Térreo,Jogos 1,Teto,Laje existente regularizada,0
+JG1-04,Térreo,Jogos 1,Piso,Terrazzo grigio ace 90x90,0
+JG1-05,Térreo,Jogos 1,Pintura,Toque de seda areia,0
+JG1-06,Térreo,Jogos 1,Iluminação,Painel 20x20,0
+JG2-01,Térreo,Jogos 2,Demolição,Parede entre Jogos 2 e Bar/Adega,0
+JG2-02,Térreo,Jogos 2,Elétrica,Tomadas e interruptor,0
+JG2-03,Térreo,Jogos 2,Teto,Laje existente regularizada,0
+JG2-04,Térreo,Jogos 2,Piso,Terrazzo grigio ace 90x90,0
+JG2-05,Térreo,Jogos 2,Pintura,Cimento queimado tubarão branco,0
+JG2-06,Térreo,Jogos 2,Iluminação,2 painéis 20x20,0
+BAR-01,Térreo,Bar/Adega,Elétrica,"Tomadas, interruptor e LED da adega",0
+BAR-02,Térreo,Bar/Adega,Teto,Laje existente regularizada,0
+BAR-03,Térreo,Bar/Adega,Piso,Terrazzo grigio ace 90x90,0
+BAR-04,Térreo,Bar/Adega,Pintura,Cimento queimado tubarão branco,0
+BAR-05,Térreo,Bar/Adega,Marcenaria,Bar e adega,0
+BAR-06,Térreo,Bar/Adega,Iluminação,2 painéis 20x20 + fita LED,0
+ESC-01,Térreo,Escada e pátio,Esquadrias,Porta pivotante de vidro (P4),0
+ESC-02,Térreo,Escada e pátio,Piso,Escada em terrazzo grigio,0
+ESC-03,Térreo,Escada e pátio,Acabamento,Guarda-corpo e acabamentos,0
+JAR-01,Térreo,Jardim,Demolição,Escada antiga do jardim,0
+JAR-02,Térreo,Jardim,Piso,Placas de terrazzo grigio ext 90x90,0
+JAR-03,Térreo,Jardim,Paisagismo,Grama e plantio,0
+JAR-04,Térreo,Jardim,Hidráulica,Pontos de água para mangueira,0
+JAR-05,Térreo,Jardim,Pintura,Muro em grafiato areia,0
+CAN-01,Térreo,Canil,Esquadrias,Porta vazada metalon preto (P5),0
+CAN-02,Térreo,Canil,Piso,Terrazzo grigio ace 90x90,0
+CAN-03,Térreo,Canil,Pintura,Toque de seda areia,0
+SAL-01,Superior,Sala de estar,Demolição,Paredes marcadas em vermelho,0
+SAL-02,Superior,Sala de estar,Esquadrias,Porta pivotante ACM cinza (P7),0
+SAL-03,Superior,Sala de estar,Elétrica,Tomadas e ponto do painel de TV,0
+SAL-04,Superior,Sala de estar,Forro,PVC nogueira + sanca com LED,0
+SAL-05,Superior,Sala de estar,Piso,Porcelanato Vancouver pol. 100x100 (Ceusa),0
+SAL-06,Superior,Sala de estar,Revestimento,Parede em pedra moledo cinza,0
+SAL-07,Superior,Sala de estar,Pintura,Toque de seda papel picado,0
+SAL-08,Superior,Sala de estar,Iluminação,"Pendentes, spots e fita LED",0
+HAL-01,Superior,Hall da sala,Elétrica,"Ponto de arandela h=2,00m",0
+HAL-02,Superior,Hall da sala,Forro,PVC nogueira + sanca com LED,0
+HAL-03,Superior,Hall da sala,Piso,Porcelanato Vancouver 100x100,0
+HAL-04,Superior,Hall da sala,Pintura,Toque de seda papel picado,0
+HAL-05,Superior,Hall da sala,Iluminação,Arandela e fita LED,0
+LBS-01,Superior,Lavabo superior,Alvenaria,Ajuste de paredes,0
+LBS-02,Superior,Lavabo superior,Hidráulica,"Vaso, lavatório e registro",0
+LBS-03,Superior,Lavabo superior,Elétrica,Exaustor ligado à luminária,0
+LBS-04,Superior,Lavabo superior,Forro,PVC nogueira,0
+LBS-05,Superior,Lavabo superior,Piso,Porcelanato Vancouver 100x100,0
+LBS-06,Superior,Lavabo superior,Revestimento,Pedra moledo + cimento queimado tubarão branco,0
+LBS-07,Superior,Lavabo superior,Louças e metais,"Vaso, cuba e torneira",0
+LBS-08,Superior,Lavabo superior,Iluminação,Pendente e exaustor,0
+COZ-01,Superior,Cozinha,Demolição,Paredes marcadas em vermelho,0
+COZ-02,Superior,Cozinha,Hidráulica,"Pia, gás e pontos de água",0
+COZ-03,Superior,Cozinha,Elétrica,"Tomadas, esperas de marcenaria",0
+COZ-04,Superior,Cozinha,Forro,PVC nogueira + LED,0
+COZ-05,Superior,Cozinha,Piso,Porcelanato Vancouver 100x100,0
+COZ-06,Superior,Cozinha,Revestimento,Azulejo line duplo vetro 15x15,0
+COZ-07,Superior,Cozinha,Marcenaria,Armários e bancada,0
+COZ-08,Superior,Cozinha,Iluminação,Fita LED e luminárias,0
+SUC-01,Superior,Suíte casal,Demolição,Paredes marcadas em vermelho,0
+SUC-02,Superior,Suíte casal,Esquadrias,Porta de correr vidro para sacada (P6),0
+SUC-03,Superior,Suíte casal,Elétrica,Tomadas e interruptores paralelos,0
+SUC-04,Superior,Suíte casal,Forro,PVC nogueira,0
+SUC-05,Superior,Suíte casal,Piso,Porcelanato Vancouver 100x100,0
+SUC-06,Superior,Suíte casal,Pintura,Toque de seda papel picado,0
+SUC-07,Superior,Suíte casal,Iluminação,Plafon orgânico e arandelas,0
+CLO-01,Superior,Closet,Alvenaria,Paredes novas,0
+CLO-02,Superior,Closet,Elétrica,Esperas de LED da marcenaria,0
+CLO-03,Superior,Closet,Forro,PVC nogueira,0
+CLO-04,Superior,Closet,Piso,Porcelanato Vancouver 100x100,0
+CLO-05,Superior,Closet,Pintura,Toque de seda papel picado,0
+CLO-06,Superior,Closet,Marcenaria,Armários do closet,0
+CLO-07,Superior,Closet,Iluminação,2 painéis 20x20,0
+BAC-01,Superior,Banho casal,Hidráulica,"Chuveiro, vaso, lavatório e ralo",0
+BAC-02,Superior,Banho casal,Elétrica,Tomada do toalheiro elétrico,0
+BAC-03,Superior,Banho casal,Forro,PVC nogueira,0
+BAC-04,Superior,Banho casal,Piso,Nuvola bianco lux 100x100,0
+BAC-05,Superior,Banho casal,Revestimento,Ceramic tile 8x25 + Nuvola bianco,0
+BAC-06,Superior,Banho casal,Louças e metais,"Vaso, cuba, chuveiro e toalheiro",0
+BAC-07,Superior,Banho casal,Iluminação,Luminárias e LED de marcenaria,0
+SUF-01,Superior,Suíte filho,Alvenaria,Paredes novas,0
+SUF-02,Superior,Suíte filho,Elétrica,Tomadas e interruptores,0
+SUF-03,Superior,Suíte filho,Forro,PVC nogueira,0
+SUF-04,Superior,Suíte filho,Piso,Porcelanato Vancouver 100x100,0
+SUF-05,Superior,Suíte filho,Pintura,Papel de parede quadriculado azul + safira escuro,0
+SUF-06,Superior,Suíte filho,Marcenaria,Armários,0
+SUF-07,Superior,Suíte filho,Iluminação,Plafon Apollo e pendentes nuvem,0
+BAF-01,Superior,Banho filho,Alvenaria,Paredes novas,0
+BAF-02,Superior,Banho filho,Hidráulica,"Chuveiro, vaso, lavatório e ralo",0
+BAF-03,Superior,Banho filho,Elétrica,Tomada do toalheiro elétrico,0
+BAF-04,Superior,Banho filho,Forro,PVC nogueira,0
+BAF-05,Superior,Banho filho,Piso,Nuvola bianco lux 100x100,0
+BAF-06,Superior,Banho filho,Revestimento,Terrazzo grigio ace + Nuvola bianco,0
+BAF-07,Superior,Banho filho,Louças e metais,"Vaso, cuba, chuveiro e toalheiro",0
+BAF-08,Superior,Banho filho,Iluminação,Luminárias,0
+SAC-01,Superior,Sacada,Construção,Nova sacada da suíte casal,0
+SAC-02,Superior,Sacada,Forro,Perfil com LED no forro,0
+SAC-03,Superior,Sacada,Acabamento,Guarda-corpo e piso,0
+VAR-01,Superior,Varanda de contemplação,Demolição,Retirar telhado existente,0
+VAR-02,Superior,Varanda de contemplação,Construção,"Laje e meia parede h=1,30m",0
+VAR-03,Superior,Varanda de contemplação,Piso,Terrazzo grigio ext 90x90,0
+VAR-04,Superior,Varanda de contemplação,Pintura,Fosco areia (externa),0
+VAR-05,Superior,Varanda de contemplação,Iluminação,Pontos de iluminação,0
