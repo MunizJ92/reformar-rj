@@ -1,5 +1,5 @@
 // Obra House R|J — painel de acompanhamento
-// Os dados vêm de dados/etapas.csv. Para atualizar, mude a coluna "progresso" (0 a 100).
+// Os dados vêm de etapas.csv. Para atualizar, mude a coluna "progresso" (0 a 100).
 
 const AREAS = { // m², da tabela de ambientes do projeto
   'Gourmet': 78.53, 'Lavabo térreo': 1.89, 'Escada e pátio': 6.16, 'Jogos 1': 7.20, 'Lavanderia': 3.50,
@@ -11,7 +11,7 @@ const AREAS = { // m², da tabela de ambientes do projeto
 // Contornos dos cômodos sobre as plantas, em % da largura e da altura da imagem
 const R = (x1, y1, x2, y2) => [[x1, y1], [x2, y1], [x2, y2], [x1, y2]];
 const PLANTAS = {
-  'Térreo': { img: 'assets/planta-terreo.jpg', w: 1324, h: 612, formas: [
+  'Térreo': { img: 'planta-terreo.jpg', w: 1324, h: 612, formas: [
     ['Jardim', [[5,8],[60,5.5],[60,20],[27.5,20],[27.5,40.5],[13.7,40.5],[13.7,90.5],[5,90.5]]],
     ['Gourmet', R(64.5,3,85.5,67)],
     ['Gourmet', R(86,21,98.8,89)],
@@ -26,7 +26,7 @@ const PLANTAS = {
     ['Lavanderia', R(86,3,93.8,20)],
     ['Lavabo térreo', R(94,3,98.8,20)]
   ]},
-  'Superior': { img: 'assets/planta-superior.jpg', w: 1324, h: 609, formas: [
+  'Superior': { img: 'planta-superior.jpg', w: 1324, h: 609, formas: [
     ['Varanda de contemplação', [[85.5,3],[99,3],[99,91],[64.5,91],[64.5,68],[85.5,68]]],
     ['Banho casal', R(27.5,20,33,41)],
     ['Closet', R(33.2,20,42.8,47)],
@@ -291,7 +291,7 @@ document.querySelectorAll('#filtro button').forEach(b => b.addEventListener('cli
 }));
 
 // ---------- Início
-fetch('dados/etapas.csv', { cache: 'no-store' })
+fetch('etapas.csv', { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
   .then(txt => {
     estado.etapas = lerCSV(txt).map(e => ({ ...e, progresso: Math.max(0, Math.min(100, Number(String(e.progresso).replace(',', '.')) || 0)) }));
@@ -305,5 +305,5 @@ fetch('dados/etapas.csv', { cache: 'no-store' })
     e.hidden = false;
     e.textContent = location.protocol === 'file:'
       ? 'Os dados não carregam abrindo o arquivo direto do computador. Publique a pasta no GitHub Pages (ou rode um servidor local) e abra pelo endereço do site.'
-      : 'Não foi possível ler dados/etapas.csv (' + err.message + '). Confira se o arquivo está na pasta dados do repositório.';
+      : 'Não foi possível ler etapas.csv (' + err.message + '). Confira se o arquivo está na raiz do repositório.';
   });
